@@ -1,0 +1,456 @@
+[09-Mar-2020 15:33:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 7
+[09-Mar-2020 15:37:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[09-Mar-2020 15:40:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[09-Mar-2020 15:40:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[09-Mar-2020 16:20:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[11-Mar-2020 13:46:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[23-Mar-2020 16:55:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[23-Mar-2020 16:56:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[23-Mar-2020 17:53:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[23-Mar-2020 17:56:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[24-Mar-2020 05:54:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[07-Nov-2020 07:11:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[10-Nov-2020 05:39:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[10-Nov-2020 05:40:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 8
+[10-Nov-2020 05:49:19 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/gxqhlsgtfu74/public_html/inc/api.php on line 5
+[12-Nov-2020 04:33:22 UTC] PHP Parse error:  syntax error, unexpected '$key' (T_VARIABLE), expecting ',' or ')' in /home/gxqhlsgtfu74/public_html/inc/api.php on line 12
+[01-Dec-2020 14:36:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[01-Dec-2020 14:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/api.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/api.php on line 24
+[11-Dec-2020 09:11:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 11
+[15-Dec-2020 07:56:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 11
+[15-Dec-2020 07:57:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 11
+[15-Dec-2020 07:57:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 11
+[15-Dec-2020 07:57:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 11
+[15-Dec-2020 07:58:54 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:58:56 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:09 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:12 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:27 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:34 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:43 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:45 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 07:59:55 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 08:00:08 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 08:00:08 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 6
+[15-Dec-2020 08:00:23 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 08:00:36 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 5
+[15-Dec-2020 08:01:20 UTC] PHP Notice:  Undefined variable: object in /home/gxqhlsgtfu74/public_html/inc/mobilityapi.php on line 20
+[18-Jan-2021 09:23:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/inc/api.php on line 11
+[27-Jan-2021 16:17:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[27-Jan-2021 16:17:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/api.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/api.php on line 24
+[26-Apr-2021 15:37:28 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[26-Apr-2021 15:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[26-Apr-2021 15:37:32 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[26-Apr-2021 15:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[27-Apr-2021 15:23:00 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/gxqhlsgtfu74/public_html/inc/excel.php on line 146
+[27-Apr-2021 15:40:22 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[27-Apr-2021 15:40:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/excel.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/excel.php on line 22
+[27-Apr-2021 15:40:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[27-Apr-2021 15:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[27-Apr-2021 15:42:49 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:42:49 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:43:00 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:43:00 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:44:33 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:44:33 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:45:09 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:45:09 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:45:14 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:45:14 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 64
+[27-Apr-2021 15:45:45 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:45:45 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:01 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:01 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:03 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:03 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:34 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:46:34 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:46:36 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:46:36 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:46:51 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:46:51 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 47
+[27-Apr-2021 15:47:06 UTC] PHP Warning:  require(ssp.class.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 45
+[27-Apr-2021 15:47:06 UTC] PHP Fatal error:  require(): Failed opening required 'ssp.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 45
+[27-Apr-2021 15:47:23 UTC] PHP Fatal error:  Uncaught Error: Class 'SSP' not found in /home/gxqhlsgtfu74/public_html/inc/excelajax.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:47:25 UTC] PHP Fatal error:  Uncaught Error: Class 'SSP' not found in /home/gxqhlsgtfu74/public_html/inc/excelajax.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 48
+[27-Apr-2021 15:51:34 UTC] PHP Fatal error:  Uncaught Error: Class 'SSP' not found in /home/gxqhlsgtfu74/public_html/inc/excelajax.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 49
+[27-Apr-2021 16:11:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:12:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:12:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:16:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 31
+[27-Apr-2021 16:16:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:16:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 31
+[27-Apr-2021 16:16:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:16:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 31
+[27-Apr-2021 16:16:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:16:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 31
+[27-Apr-2021 16:16:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:16:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 31
+[27-Apr-2021 16:16:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 50
+[27-Apr-2021 16:21:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 44
+[27-Apr-2021 16:22:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 44
+[27-Apr-2021 16:25:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 44
+[27-Apr-2021 16:28:31 UTC] PHP Notice:  Undefined index: allcount in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 56
+[27-Apr-2021 17:03:42 UTC] PHP Notice:  Undefined index: date in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 16
+[27-Apr-2021 17:03:42 UTC] PHP Notice:  Undefined index: dateto in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 17
+[27-Apr-2021 17:28:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 88
+[28-Apr-2021 09:19:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 88
+[28-Apr-2021 09:39:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 88
+[28-Apr-2021 09:42:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 88
+[28-Apr-2021 09:50:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 88
+[29-Jun-2021 15:27:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[29-Jun-2021 15:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[30-Jun-2021 15:03:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[30-Jun-2021 15:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[12-Jul-2021 15:32:17 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[12-Jul-2021 15:32:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[12-Jul-2021 15:32:20 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[12-Jul-2021 15:32:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[05-Aug-2021 11:13:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[05-Aug-2021 11:13:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[06-Aug-2021 11:18:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[06-Aug-2021 11:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[17-Nov-2021 08:29:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:29:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:29:40 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:29:40 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:36:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:36:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:36:43 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:36:43 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:37:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:37:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:37:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:37:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:38:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:38:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:38:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:38:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:39:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:39:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:40:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:40:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:41:59 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:41:59 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:42:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:42:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 08:42:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 08:42:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 09:52:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 09:52:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 09:52:35 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 09:52:35 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 09:53:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 09:53:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 09:53:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 09:53:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:10:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:10:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:10:14 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:10:14 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:10:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:10:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:10:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:10:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:23:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:23:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:23:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:23:30 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:23:55 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:23:55 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:24:09 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:24:09 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:24:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:24:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:32:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:32:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:32:35 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:32:35 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:32:51 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:32:51 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:33:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:33:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:33:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:33:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 12:33:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 12:33:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:00:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:00:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:01:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:01:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:01:34 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:01:34 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:01:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:01:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:02:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:02:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:03:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:03:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:30:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:30:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:31:45 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:31:45 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:34:54 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:34:54 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:35:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:35:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:43:52 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:43:52 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:44:18 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:44:18 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:44:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:44:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 13:53:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 13:53:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:02:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:02:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:02:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:02:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:02:59 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:02:59 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:03:15 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:03:15 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:03:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:03:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:06:45 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:06:45 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:19:32 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:19:32 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:22:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:22:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:23:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:23:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:23:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:23:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:24:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:24:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:24:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:24:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:35:10 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:35:10 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:35:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:35:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:35:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:35:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:36:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:36:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:36:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:36:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:37:51 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:37:51 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:38:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:38:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:38:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:38:26 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:38:37 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:38:37 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:38:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:38:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:10 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:10 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:19 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:19 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:32 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:32 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:39 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:39 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:39:50 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:39:50 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:22 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:22 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:40:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:40:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:41:00 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:41:00 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:41:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:41:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:42:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:42:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:53:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:53:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 15:53:39 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 15:53:39 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:03:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:03:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:04:00 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:04:00 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:04:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:04:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:05:15 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:05:15 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:05:22 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:05:22 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:05:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:05:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:05:53 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:05:53 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:03 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:12 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:12 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:21 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:30 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:30 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:06:53 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:06:53 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:31 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:07:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:07:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:08:07 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:08:07 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:10:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:10:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:10:30 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:10:30 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:11:57 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:11:57 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:12:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:12:06 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:12:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:12:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:13:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:13:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:30:47 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:30:47 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:30:55 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:30:55 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:31:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:31:01 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:31:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:31:17 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:31:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:31:38 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:33:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:33:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:33:58 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:33:58 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:35:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:35:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:35:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:35:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:36:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:36:13 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:36:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:36:25 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:36:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:36:28 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:37:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:37:02 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:38:24 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:38:24 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:38:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:38:44 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:39:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:39:05 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:40:34 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:40:34 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:41:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:41:23 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:41:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:41:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:41:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:41:41 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:41:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:41:49 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:41:56 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:41:56 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:04 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:14 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:14 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:20 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:27 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:29 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:42:57 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:42:57 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:43:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:43:33 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:43:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:43:46 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 16:45:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 16:45:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 17:03:58 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 17:03:58 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 17:04:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 17:04:08 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[17-Nov-2021 17:04:12 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 17
+[17-Nov-2021 17:04:12 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 18
+[21-Apr-2022 15:37:46 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/gxqhlsgtfu74/public_html/inc/connectDatabase.php on line 5
+[21-Apr-2022 15:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on boolean in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/statsPostAPI.php on line 21
+[24-Jul-2023 09:35:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777216 bytes) in /home/gxqhlsgtfu74/public_html/inc/excelajax.php on line 118

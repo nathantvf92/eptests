@@ -1,0 +1,115 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/09/2018 13:14
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-syrup-1:before { content: "\f100"; }
+.flaticon-syrup:before { content: "\f101"; }
+.flaticon-injection:before { content: "\f102"; }
+.flaticon-steroids:before { content: "\f103"; }
+.flaticon-pills:before { content: "\f104"; }
+.flaticon-pill:before { content: "\f105"; }
+.flaticon-doctor:before { content: "\f106"; }
+.flaticon-visitor:before { content: "\f107"; }
+.flaticon-pregnancy:before { content: "\f108"; }
+.flaticon-pregnant-woman-and-fetus:before { content: "\f109"; }
+.flaticon-detective:before { content: "\f10a"; }
+.flaticon-question:before { content: "\f10b"; }
+.flaticon-map-location:before { content: "\f10c"; }
+.flaticon-location-on-map:before { content: "\f10d"; }
+.flaticon-globe:before { content: "\f10e"; }
+.flaticon-manager-avatar:before { content: "\f10f"; }
+.flaticon-download-business-statistics-symbol-of-a-graphic:before { content: "\f110"; }
+.flaticon-power-line-with-four-insulators:before { content: "\f111"; }
+.flaticon-electric-tower:before { content: "\f112"; }
+.flaticon-oxygen-generator:before { content: "\f113"; }
+.flaticon-dynamo:before { content: "\f114"; }
+.flaticon-droplet-of-water:before { content: "\f115"; }
+.flaticon-ambulance:before { content: "\f116"; }
+.flaticon-pizza-cutter:before { content: "\f117"; }
+.flaticon-food-scale-tool:before { content: "\f118"; }
+.flaticon-measuring-tape-rolled:before { content: "\f119"; }
+.flaticon-thermometer:before { content: "\f11a"; }
+.flaticon-big-refrigerator:before { content: "\f11b"; }
+.flaticon-feeder:before { content: "\f11c"; }
+.flaticon-scales:before { content: "\f11d"; }
+.flaticon-standing-up-man:before { content: "\f11e"; }
+.flaticon-girl:before { content: "\f11f"; }
+.flaticon-baby-with-diaper:before { content: "\f120"; }
+.flaticon-family-of-three:before { content: "\f121"; }
+.flaticon-family-silhouette:before { content: "\f122"; }
+.flaticon-hospital-buildings:before { content: "\f123"; }
+.flaticon-hospitalization:before { content: "\f124"; }
+.flaticon-heart-rate-monitor:before { content: "\f125"; }
+    
+    $font-Flaticon-syrup-1: "\f100";
+    $font-Flaticon-syrup: "\f101";
+    $font-Flaticon-injection: "\f102";
+    $font-Flaticon-steroids: "\f103";
+    $font-Flaticon-pills: "\f104";
+    $font-Flaticon-pill: "\f105";
+    $font-Flaticon-doctor: "\f106";
+    $font-Flaticon-visitor: "\f107";
+    $font-Flaticon-pregnancy: "\f108";
+    $font-Flaticon-pregnant-woman-and-fetus: "\f109";
+    $font-Flaticon-detective: "\f10a";
+    $font-Flaticon-question: "\f10b";
+    $font-Flaticon-map-location: "\f10c";
+    $font-Flaticon-location-on-map: "\f10d";
+    $font-Flaticon-globe: "\f10e";
+    $font-Flaticon-manager-avatar: "\f10f";
+    $font-Flaticon-download-business-statistics-symbol-of-a-graphic: "\f110";
+    $font-Flaticon-power-line-with-four-insulators: "\f111";
+    $font-Flaticon-electric-tower: "\f112";
+    $font-Flaticon-oxygen-generator: "\f113";
+    $font-Flaticon-dynamo: "\f114";
+    $font-Flaticon-droplet-of-water: "\f115";
+    $font-Flaticon-ambulance: "\f116";
+    $font-Flaticon-pizza-cutter: "\f117";
+    $font-Flaticon-food-scale-tool: "\f118";
+    $font-Flaticon-measuring-tape-rolled: "\f119";
+    $font-Flaticon-thermometer: "\f11a";
+    $font-Flaticon-big-refrigerator: "\f11b";
+    $font-Flaticon-feeder: "\f11c";
+    $font-Flaticon-scales: "\f11d";
+    $font-Flaticon-standing-up-man: "\f11e";
+    $font-Flaticon-girl: "\f11f";
+    $font-Flaticon-baby-with-diaper: "\f120";
+    $font-Flaticon-family-of-three: "\f121";
+    $font-Flaticon-family-silhouette: "\f122";
+    $font-Flaticon-hospital-buildings: "\f123";
+    $font-Flaticon-hospitalization: "\f124";
+    $font-Flaticon-heart-rate-monitor: "\f125";

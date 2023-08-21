@@ -1,0 +1,97 @@
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[11-Jan-2021 16:53:23 UTC] PHP Warning:  Illegal offset type in /home/gxqhlsgtfu74/public_html/orthopaedic/orthopaedicdata.php on line 21
+[19-Jan-2021 09:24:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 102
+[19-Jan-2021 09:24:47 UTC] PHP Warning:  include_once(widgets/navbar.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 35
+[19-Jan-2021 09:24:47 UTC] PHP Warning:  include_once(): Failed opening 'widgets/navbar.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 35
+[19-Jan-2021 09:24:47 UTC] PHP Warning:  include_once(widgets/sidebar.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 40
+[19-Jan-2021 09:24:47 UTC] PHP Warning:  include_once(): Failed opening 'widgets/sidebar.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 40
+[19-Jan-2021 09:25:34 UTC] PHP Warning:  require(mobilityconnectDatabase.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 2
+[19-Jan-2021 09:25:34 UTC] PHP Fatal error:  require(): Failed opening required 'mobilityconnectDatabase.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 2
+[19-Jan-2021 09:25:48 UTC] PHP Warning:  include_once(widgets/navbar.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 35
+[19-Jan-2021 09:25:48 UTC] PHP Warning:  include_once(): Failed opening 'widgets/navbar.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 35
+[19-Jan-2021 09:25:48 UTC] PHP Warning:  include_once(widgets/sidebar.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 40
+[19-Jan-2021 09:25:48 UTC] PHP Warning:  include_once(): Failed opening 'widgets/sidebar.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 40
+[19-Jan-2021 09:39:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 13
+[19-Jan-2021 09:39:43 UTC] PHP Notice:  Undefined variable: wards in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:39:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:39:43 UTC] PHP Notice:  Undefined variable: products in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 09:39:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 09:39:56 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 13
+[19-Jan-2021 09:41:39 UTC] PHP Notice:  Undefined variable: wards in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:41:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:41:39 UTC] PHP Notice:  Undefined variable: products in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 09:41:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 09:43:00 UTC] PHP Notice:  Undefined variable: wards in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:43:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 105
+[19-Jan-2021 09:43:00 UTC] PHP Notice:  Undefined variable: products in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 09:43:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 147
+[19-Jan-2021 11:49:23 UTC] PHP Notice:  Undefined variable: v in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 50
+[19-Jan-2021 11:49:25 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 21
+[19-Jan-2021 11:49:25 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[19-Jan-2021 11:49:25 UTC] PHP Notice:  Undefined variable: v in /home/gxqhlsgtfu74/public_html/orthopaedic/ortho.php on line 50
+[19-Jan-2021 12:12:08 UTC] PHP Warning:  require_once(../inc/orthopaedicconnectDatabase.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/delete.php on line 2
+[19-Jan-2021 12:12:08 UTC] PHP Fatal error:  require_once(): Failed opening required '../inc/orthopaedicconnectDatabase.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/delete.php on line 2
+[25-Jan-2021 05:24:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[25-Jan-2021 05:24:18 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[25-Jan-2021 05:36:24 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/reportdata.php on line 16
+[25-Jan-2021 05:36:44 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/reportdata.php on line 16
+[25-Jan-2021 05:36:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/reportdata.php on line 16
+[02-Feb-2021 08:17:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:17:29 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[02-Feb-2021 08:17:39 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:17:39 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[02-Feb-2021 08:18:08 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:18:08 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[02-Feb-2021 08:18:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:18:29 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[02-Feb-2021 08:18:38 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:18:38 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[02-Feb-2021 08:18:56 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 30
+[02-Feb-2021 08:18:56 UTC] PHP Notice:  Undefined offset: 0 in /home/gxqhlsgtfu74/public_html/orthopaedic/orthodata.php on line 39
+[04-Feb-2021 06:41:58 UTC] PHP Warning:  require(inc/connectDatabase.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/login.php on line 13
+[04-Feb-2021 06:41:58 UTC] PHP Fatal error:  require(): Failed opening required 'inc/connectDatabase.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/login.php on line 13
+[04-Feb-2021 06:42:10 UTC] PHP Warning:  require(inc/connectDatabase.php): failed to open stream: No such file or directory in /home/gxqhlsgtfu74/public_html/orthopaedic/login.php on line 13
+[04-Feb-2021 06:42:10 UTC] PHP Fatal error:  require(): Failed opening required 'inc/connectDatabase.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/gxqhlsgtfu74/public_html/orthopaedic/login.php on line 13
+[14-Feb-2021 09:42:16 UTC] PHP Notice:  Undefined variable: exceldata in /home/gxqhlsgtfu74/public_html/orthopaedic/widgets/sidebar.php on line 31
+[14-Feb-2021 09:44:17 UTC] PHP Notice:  Undefined variable: exceldata in /home/gxqhlsgtfu74/public_html/orthopaedic/widgets/sidebar.php on line 31
+[14-Feb-2021 09:44:55 UTC] PHP Notice:  Undefined variable: exceldata in /home/gxqhlsgtfu74/public_html/orthopaedic/widgets/sidebar.php on line 31
+[14-Feb-2021 09:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 09:50:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 09:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 09:51:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 09:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 09:52:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php:18
+Stack trace:
+#0 /home/gxqhlsgtfu74/public_html/orthopaedic/exceldata.php(8): require_once()
+#1 {main}
+  thrown in /home/gxqhlsgtfu74/public_html/inc/orthopaedicexcel.php on line 18
+[14-Feb-2021 11:10:21 UTC] PHP Notice:  Undefined index: id in /home/gxqhlsgtfu74/public_html/orthopaedic/delete.php on line 6

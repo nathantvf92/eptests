@@ -556,9 +556,9 @@ $(function () {
 			name: "Total",
 	        data: [
 
-				['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']['total']; ?>],
+				['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>],
 
-				['<?php echo "unmeet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']['total']; ?>],
+				['<?php echo "unmeet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']; ?>],
 	        ]
 	    }]
 	});

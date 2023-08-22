@@ -68,14 +68,16 @@ if ($result->num_rows > 0) {
     } 
 }
 /*update chart new*/ 
-$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new GROUP BY unmeet_needs ORDER BY unmeet_needs;" ;
+$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new where isOld=0 GROUP BY unmeet_needs ORDER BY unmeet_needs;" ;
 $result = $con->query($sql);
+$data['dateChartUnMeet']['un_meet'] = 0;
+$data['dateChartUnMeet']['meet'] = 0;
 if ($result->num_rows > 0) { 
   while($row = $result->fetch_assoc()) {
       if($row['unmeet_needs']){
-        $data['dateChartUnMeet']['un_meet']['total'] = $row['total'];
+        $data['dateChartUnMeet']['un_meet'] = $row['total'];
       }else{
-        $data['dateChartUnMeet']['meet']['total'] =  $row['total'];
+        $data['dateChartUnMeet']['meet'] =  $row['total'];
       }
 
   }
@@ -87,7 +89,7 @@ $result = $con->query($sql);
 if ($result->num_rows > 0) { 
   while($row = $result->fetch_assoc()) {
     $idWard = $row['id'];
-    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new where ward = '$idWard' GROUP BY unmeet_needs ORDER BY unmeet_needs;";
+    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new where ward = '$idWard' and isOld=0 GROUP BY unmeet_needs ORDER BY unmeet_needs;";
     $result2 = $con->query($sql2);
     $res = [
       'un_meet' => 0,

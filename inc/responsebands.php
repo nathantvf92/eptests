@@ -66,7 +66,46 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
       $data['teamslist'][] = $row;
     } 
-}  
+}
+/*update chart new*/ 
+$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new GROUP BY unmeet_needs ORDER BY unmeet_needs;" ;
+$result = $con->query($sql);
+if ($result->num_rows > 0) { 
+  while($row = $result->fetch_assoc()) {
+      if($row['unmeet_needs']){
+        $data['dateChartUnMeet']['un_meet']['total'] = $row['total'];
+      }else{
+        $data['dateChartUnMeet']['meet']['total'] =  $row['total'];
+      }
+
+  }
+}
+
+
+$sql = "SELECT * from wards where status = 1" ;
+$result = $con->query($sql);
+if ($result->num_rows > 0) { 
+  while($row = $result->fetch_assoc()) {
+    $idWard = $row['id'];
+    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new where ward = '$idWard' GROUP BY unmeet_needs ORDER BY unmeet_needs;";
+    $result2 = $con->query($sql2);
+    $res = [
+      'un_meet' => 0,
+      'meet' => 0,
+    ];
+    if ($result2->num_rows > 0) {     
+      while($row2 = $result2->fetch_assoc()) {
+        if($row2['unmeet_needs']){
+          $res['un_meet']= $row2['total'];
+        }else{
+          $res['meet']=  $row2['total'];
+        }
+      }
+    }
+    $data['wardChart'][] = array_merge($row, $res);
+  }
+}
+
 $con->close();
 // echo '<pre>'; print_r($data); exit;
 

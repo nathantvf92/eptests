@@ -11,7 +11,7 @@ if(isset($_GET['id'])){
 
  
 
-  $sql = "SELECT * from stats_new where id=".$_GET['id'];
+  $sql = "SELECT * from stats_new where isOld = 0 and id=".$_GET['id'];
   $result = $con->query($sql);
   if ($result->num_rows > 0) { 
     while($row = $result->fetch_assoc()) {
@@ -57,7 +57,7 @@ if(isset($_POST['idget'])){
       dc_id= '$dc_id',
       periodeoftherapy= '$periodeoftherapy',
       discharge_outcomes= '$discharge_outcomes'
-      WHERE id = $id "; 
+      WHERE id = $id and isOld = 0 "; 
       
     $datainserted = "Stats Successfully updated";    
   }else{
@@ -220,7 +220,7 @@ $total_no_of_pages = ceil($total_records / $total_records_per_page);
 $second_last = $total_no_of_pages - 1; // total pages minus 1
 
 $sql = "SELECT s.id,s.clinicians_initials as username, s.date, s.ff,s.nonff,s.unmeet_needs,s.newpatient, s.direct_contacts, d.name as discipline,b.name as band,t.name as team,w.name as ward,dc.name as directcontact,dot.name as dischargeoutcome,rt.name as responsetime,pt.name as periodoftherapy,nc.name as nationalcode 
-FROM stats_new s 
+FROM stats_new s WHERE s.isOld = 0
 LEFT JOIN disciplines d ON d.id = s.discipline AND d.status = 1
 LEFT JOIN bands b ON b.id = s.band AND b.status = 1
 LEFT JOIN teams t ON t.id = s.team AND t.status = 1

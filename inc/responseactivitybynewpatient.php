@@ -16,7 +16,7 @@ $sql = "SELECT
 rt.name, sum( CASE when s.newpatient != '0' THEN 1 ELSE 0 END) as totalnewpatient 
 FROM stats_new s
 LEFT JOIN responsetime rt ON rt.id = s.response AND rt.status = 1
-WHERE s.response !='0'
+WHERE s.response !='0' AND s.isOld = 0
 GROUP BY s.response";
 $result = $con->query($sql);
 if ($result->num_rows > 0) {

@@ -67,67 +67,6 @@ if ($result->num_rows > 0) {
     $data['teamslist'][] = $row;
   }
 }
-/*update chart new*/
-$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new where isOld=0 GROUP BY unmeet_needs ORDER BY unmeet_needs;";
-$result = $con->query($sql);
-$data['dateChartUnMeet']['un_meet'] = 0;
-$data['dateChartUnMeet']['meet'] = 0;
-if ($result->num_rows > 0) {
-  while ($row = $result->fetch_assoc()) {
-    if ($row['unmeet_needs']) {
-      $data['dateChartUnMeet']['un_meet'] = $row['total'];
-    } else {
-      $data['dateChartUnMeet']['meet'] = $row['total'];
-    }
-  }
-}
-
-$sql = "SELECT COUNT(*) total, nc.name from stats_new sn
-        left join  nationalcode nc on sn.nationalcode = nc.id
-        where isOld=0 GROUP BY sn.nationalcode ORDER BY sn.nationalcode;";
-$result = $con->query($sql);
-if ($result->num_rows > 0) {
-  while ($row = $result->fetch_assoc()) {
-    $data['dataChartSpecialy'][] = $row;
-  }
-}
-
-
-$sql = "SELECT * from wards where status = 1";
-$result = $con->query($sql);
-if ($result->num_rows > 0) {
-  while ($row = $result->fetch_assoc()) {
-    $idWard = $row['id'];
-    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new where ward = '$idWard' and isOld=0 GROUP BY unmeet_needs ORDER BY unmeet_needs;";
-    $result2 = $con->query($sql2);
-    $res = [
-      'un_meet' => 0,
-      'meet' => 0,
-    ];
-    if ($result2->num_rows > 0) {
-      while ($row2 = $result2->fetch_assoc()) {
-        if ($row2['unmeet_needs']) {
-          $res['un_meet'] = $row2['total'];
-        } else {
-          $res['meet'] = $row2['total'];
-        }
-      }
-    }
-    $data['wardChart'][] = array_merge($row, $res);
-  }
-}
-
-
-$sql = "SELECT COUNT(clinicians_initials) as total, clinicians_initials as name 
-        FROM `stats_new` 
-        WHERE isOld = 0
-        GROUP BY clinicians_initials";
-$result = $con->query($sql);
-if ($result->num_rows > 0) {
-  while ($row = $result->fetch_assoc()) {
-    $data['dataChartStaffActivity'][] = $row;
-  }
-}
 $con->close();
 // echo '<pre>'; print_r($data); exit;
 

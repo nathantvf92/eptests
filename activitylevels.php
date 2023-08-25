@@ -1,5 +1,7 @@
 <?php
 session_start();
+error_reporting(0);
+
 if(isset($_SESSION['statsuser']) && $_SESSION['statsuser'] == true){
 }else{ 
     header('Location: '.'login.php');
@@ -42,84 +44,166 @@ require_once("inc/config.php"); ?>
       </div>
 		<div class="row">
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-chart">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-md-3">
-									<h3 class="panel-title"></h3>
-								</div>
-								<div class="col-md-9 text-right">
-									<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php">
-										<div class="form-group">
-											<input type="text" class="form-control date-picker valid" id="date" name="date" value="<?php if(isset($_POST['date']) && $_POST['date'] != ""){ echo $_POST['date'];  } ?>" required autocomplete="off">
-										</div> 
-										<div class="form-group">
-											<input type="text" class="form-control date-picker valid" id="dateto" name="dateto" value="<?php if(isset($_POST['date']) && $_POST['dateto'] != ""){ echo $_POST['dateto'];  } ?>" required autocomplete="off">
-										</div> 
-										<div class="form-group">
-											<div class="btn-group">
-											  <button type="submit" class="btn btn-info">Submit</button> 
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							<div class="panel-heading">
+								<div class="row">
+									<div class="col-md-3">
+										<h3 class="panel-title"></h3>
+									</div>
+									<div class="col-md-9 text-right">
+										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php">
+											<div class="form-group">
+												<input type="text" class="form-control date-picker valid" id="date" name="date" value="<?php if(isset($_POST['date']) && $_POST['date'] != ""){ echo $_POST['date'];  } ?>" required autocomplete="off">
+											</div> 
+											<div class="form-group">
+												<input type="text" class="form-control date-picker valid" id="dateto" name="dateto" value="<?php if(isset($_POST['date']) && $_POST['dateto'] != ""){ echo $_POST['dateto'];  } ?>" required autocomplete="off">
+											</div> 
+											<div class="form-group">
+												<div class="btn-group">
+												<button type="submit" class="btn btn-info">Submit</button> 
+												</div>
 											</div>
-										</div>
-									</form>
+										</form>
+									</div>
 								</div>
+								<!-- <div class="row">
+									<div class="col-md-6 col-sm-6  col-xs-3">
+										<h3 class="panel-title">PRE DEC 2020</h3>
+									</div>
+									<div class="col-md-6 col-sm-6  col-xs-9 text-right">
+									</div>
+								</div> -->
 							</div>
-							<!-- <div class="row">
-								<div class="col-md-6 col-sm-6  col-xs-3">
-									<h3 class="panel-title">PRE DEC 2020</h3>
-								</div>
-								<div class="col-md-6 col-sm-6  col-xs-9 text-right">
+							<!-- <div class="panel-body">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-2" style="height: 250px; min-width:90px; width:100%; margin:0px auto;"></div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-3" style="height: 240px; min-width:240px; margin:0px auto;"></div>
+									</div>
 								</div>
 							</div> -->
 						</div>
-						<!-- <div class="panel-body">
-							<div class="row">
-								<div class="col-md-6 col-sm-6 text-center">
-									<div id="donut-chart-2" style="height: 250px; min-width:90px; width:100%; margin:0px auto;"></div>
-								</div>
-								<div class="col-md-6 col-sm-6 text-center">
-									<div id="donut-chart-3" style="height: 240px; min-width:240px; margin:0px auto;"></div>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
+				
 			</div>
-			
-        </div>
-      </div>
-      		<div class="row">
+      	</div>
+		<div class="row">
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-chart">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-md-12 col-sm-12  col-xs-3">
-									<h3 class="panel-title">New Teams from DEC 2020</h3>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							<div class="panel-heading">
+								<div class="row">
+									<div class="col-md-12 col-sm-12  col-xs-3">
+										<h3 class="panel-title">New Teams from DEC 2020</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="panel-body">
-							<div class="row">
-								<div class="col-md-6 col-sm-6 text-center">
-									<div id="donut-chart-4" style="height: 250px; min-width:90px; width:100%; margin:0px auto;"></div>
-								</div>
-								<div class="col-md-6 col-sm-6 text-center">
-									<div id="donut-chart-5" style="height: 240px; min-width:240px; margin:0px auto;"></div>
-								</div>
-								<div class="col-md-6 col-sm-6 text-center">
-									<div id="donut-chart-6" style="height: 240px; min-width:240px; margin:0px auto;"></div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-4" style="height: 250px; min-width:90px; width:100%; margin:0px auto;"></div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-5" style="height: 240px; min-width:240px; margin:0px auto;"></div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-6" style="height: 240px; min-width:240px; margin:0px auto;"></div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-        </div>
-      </div>
+      	</div>
+		<div class="row">
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							<div class="panel-heading">
+								<div class="row">
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title"></h3>
+									</div>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-8" style="height: 400px; min-width:400px; margin:0px auto;">
+										</div>
+									</div>
+									<!-- <div class="col-md-4 col-sm-4 text-center">
+										<div id="donut-chart-19" style="height: 240px; min-width:240px; margin:0px auto;">
+										</div>
+									</div> -->
+									<div class="col-md-6 col-sm-6 text-center">
+										<div id="donut-chart-10" style="height: 400px; min-width:400px; margin:0px auto;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							<div class="panel-heading">
+								<div class="row">
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title"></h3>
+									</div>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div id="donut-chart-9" style="height: 500px; min-width:240px; margin:0px auto;">
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							<div class="panel-heading">
+								<div class="row">
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title"></h3>
+									</div>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-md-12 col-sm-12 text-center">
+										<div id="donut-chart-11" style="height: 500px; min-width:240px; margin:0px auto;">
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
 
 <!-- Placed at the end of the document so the pages load faster -->
@@ -290,7 +374,201 @@ $(function () {
 	    }]
 	});
 
-	 
+	$('#donut-chart-8').highcharts({
+			colors: ['#2196f3', '#8bc34a'],
+			chart: {
+				type: 'pie'
+			},
+
+			plotOptions: {
+				pie: {
+					//innerSize: '70%',
+					cursor: 'pointer',
+					dataLabels: {
+						enabled: true,
+						format: '<b>{point.name}</b>: {point.y:.1f} ',
+
+					},
+					showInLegend: true
+				}
+			},
+
+			title: {
+				text: 'Frailty Unmeet/meet'
+			},
+			credits: {
+				enabled: false
+			},
+
+			exporting: {
+				enabled: true
+			},
+			tooltip: {
+				valueSuffix: ''
+			},
+			series: [{
+				name: "Total",
+				data: [
+
+					['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>],
+
+			['<?php echo "unmeet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']; ?>],
+			]
+		}]
+	});
+
+		Highcharts.chart('donut-chart-9', {
+			colors: ['#AA4643', '#2196f3'],
+			chart: {
+				type: 'column'
+			},
+			title: {
+				text: 'Frailty activity by wards',
+				align: 'left'
+			},
+			xAxis: {
+				categories: [ 
+				<?php foreach ($data['wardChart'] as $k => $v) {
+					echo "'" . $v['name'] . "',";
+				} ?>
+			]
+		},
+			yAxis: {
+			allowDecimals: false,
+			min: 0,
+			title: {
+				text: ''
+			}
+		},
+			tooltip: {
+			format: '<b>{key}</b><br/>{series.name}: {y}<br/>' +
+				'Total: {point.stackTotal}'
+		},
+			plotOptions: {
+			column: {
+				stacking: 'normal'
+			}
+		},
+			series: [
+			{
+				name: 'Unmeet',
+				data:
+					[
+					<?php
+					foreach ($data['wardChart'] as $k => $v) {
+						echo $v['un_meet'] . ",";
+					}
+					?>
+				],
+			stack: 'Europe'
+			},
+			{
+				name: 'Meet',
+				data: [
+					<?php
+					foreach ($data['wardChart'] as $k => $v) {
+						echo $v['meet'] . ",";
+					}
+					?>
+				],
+			stack: 'Europe'
+			},
+		]
+	});
+
+		$('#donut-chart-10').highcharts({
+			colors: ['#2196f3', '#8bc34a', '#ffc107', '#37474f', '#c5dfdf', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+			chart: {
+				type: 'pie'
+			},
+
+			plotOptions: {
+				pie: {
+					cursor: 'pointer',
+					dataLabels: {
+						enabled: true,
+						format: '<b>{point.name}</b>: {point.y:.1f} ',
+
+					},
+					showInLegend: true
+				}
+			},
+
+			title: {
+				text: 'Frailty Speciality Breakdown'
+			},
+			credits: {
+				enabled: false
+			},
+
+			exporting: {
+				enabled: true
+			},
+			tooltip: {
+				valueSuffix: ''
+			},
+			series: [{
+				name: "Total",
+				data: [
+
+				<?php foreach ($data['dataChartSpecialy'] as $k => $v) {
+					?>
+						['<?php echo $v['name'] ?>',<?php echo $v['total']; ?>],
+							<?php
+
+				} ?>
+			]
+		}]
+	});
+
+		Highcharts.chart('donut-chart-11', {
+			colors: ['#AA4643'],
+			chart: {
+				type: 'column'
+			},
+			title: {
+				text: 'Frailty Staff Activity',
+				align: 'left'
+			},
+			xAxis: {
+				categories: [ 
+				<?php foreach ($data['dataChartStaffActivity'] as $k => $v) {
+					echo "'" . $v['name'] . "',";
+				} ?>
+			]
+		},
+			yAxis: {
+			allowDecimals: false,
+			min: 0,
+			title: {
+				text: ''
+			}
+		},
+			tooltip: {
+			format: '<b>{key}</b><br/>{series.name}: {y}<br/>' +
+				'Total: {point.stackTotal}'
+		},
+			plotOptions: {
+			column: {
+				stacking: 'normal'
+			}
+		},
+			series: [
+
+			{
+				name: 'Number of staff',
+				data:
+					[
+						<?php
+						foreach ($data['dataChartStaffActivity'] as $k => $v) {
+							echo $v['total'].",";
+						}
+						?>
+					],
+				stack: 'Europe'
+			},
+		]
+	});
 
  
 

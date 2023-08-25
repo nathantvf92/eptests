@@ -702,7 +702,7 @@ require_once("inc/config.php");
 				<?php foreach ($data['dataChartSpecialy'] as $k => $v) {
 					?>
 						['<?php echo $v['name'] ?>',<?php echo $v['total']; ?>],
-						<?php
+							<?php
 
 				} ?>
 			]
@@ -742,20 +742,19 @@ require_once("inc/config.php");
 			}
 		},
 			series: [
-				<?php
-				foreach ($data['dataChartStaffActivity'] as $k => $v) {
-					?>
-				{
-					name: '<?php echo $v['name']; ?>',
-					data:
-						[
-									<?php echo $v['total']; ?>
-								],
+
+			{
+				name: 'Number of staff',
+				data:
+					[
+						<?php
+						foreach ($data['dataChartStaffActivity'] as $k => $v) {
+							echo $v['total'].",";
+						}
+						?>
+					],
 				stack: 'Europe'
-						},
-					<?php
-				}
-				?>
+			},
 		]
 	});
 

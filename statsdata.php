@@ -202,7 +202,9 @@ if (isset($_GET['page_no']) && $_GET['page_no']!="") {
 }
 $whrdate =  "";
 if(isset($_POST['date']) && $_POST['date'] != "") {
-  $whrdate =  ' where s.date between "'.$_POST['date'].'" and "'.$_POST['dateto'].'" '; 
+  $whrdate =  ' where s.date between "'.$_POST['date'].'" and "'.$_POST['dateto'].'" and s.isOld=0'; 
+}else{
+  $whrdate =  ' where s.isOld=0'; 
 }
 $total_records_per_page = 100;
 
@@ -210,7 +212,7 @@ $offset = ($page_no-1) * $total_records_per_page;
 $previous_page = $page_no - 1;
 $next_page = $page_no + 1;
 $adjacents = "2";
-$result_count  = "SELECT COUNT(*) As total_records FROM stats_new s $whrdate";
+$result_count  = "SELECT COUNT(*) As total_records FROM stats_new s $whrdate" ;
 $result = $con->query($result_count);
 while($row = $result->fetch_assoc()) {
     $total_records = $row; 
@@ -220,7 +222,7 @@ $total_no_of_pages = ceil($total_records / $total_records_per_page);
 $second_last = $total_no_of_pages - 1; // total pages minus 1
 
 $sql = "SELECT s.id,s.clinicians_initials as username, s.date, s.ff,s.nonff,s.unmeet_needs,s.newpatient, s.direct_contacts, d.name as discipline,b.name as band,t.name as team,w.name as ward,dc.name as directcontact,dot.name as dischargeoutcome,rt.name as responsetime,pt.name as periodoftherapy,nc.name as nationalcode 
-FROM stats_new s WHERE s.isOld = 0
+FROM stats_new s
 LEFT JOIN disciplines d ON d.id = s.discipline AND d.status = 1
 LEFT JOIN bands b ON b.id = s.band AND b.status = 1
 LEFT JOIN teams t ON t.id = s.team AND t.status = 1

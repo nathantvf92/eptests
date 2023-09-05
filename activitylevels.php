@@ -53,12 +53,27 @@ require_once("inc/config.php"); ?>
 										<h3 class="panel-title"></h3>
 									</div>
 									<div class="col-md-9 text-right">
-										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php">
+										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php" id="formSubmit">
 											<div class="form-group">
 												<input type="text" class="form-control date-picker valid" id="date" name="date" value="<?php if(isset($_POST['date']) && $_POST['date'] != ""){ echo $_POST['date'];  } ?>" required autocomplete="off">
 											</div> 
 											<div class="form-group">
 												<input type="text" class="form-control date-picker valid" id="dateto" name="dateto" value="<?php if(isset($_POST['date']) && $_POST['dateto'] != ""){ echo $_POST['dateto'];  } ?>" required autocomplete="off">
+											</div> 
+											<div class="form-group hidden">
+												<input type="text" class="form-control" id="team" name="team" value="<?php if(isset($_POST['team'])){ echo $_POST['team'];  } ?>">
+											</div> 
+											<div class="form-group hidden">
+												<input type="text" class="form-control" id="team_ward" name="team_ward" value="<?php if(isset($_POST['team_ward'])){ echo $_POST['team_ward'];  } ?>">
+											</div> 
+											<div class="form-group hidden">
+												<input type="text" class="form-control" id="team_staff" name="team_staff" value="<?php if(isset($_POST['team_staff'])){ echo $_POST['team_staff'];  } ?>">
+											</div> 
+											<div class="form-group hidden">
+												<input type="text" class="form-control" id="team_ward_sort" name="team_ward_sort" value="<?php if(isset($_POST['team_ward_sort'])){ echo $_POST['team_ward_sort'];  } ?>">
+											</div> 
+											<div class="form-group hidden">
+												<input type="text" class="form-control" id="team_staff_sort" name="team_staff_sort" value="<?php if(isset($_POST['team_staff_sort'])){ echo $_POST['team_staff_sort'];  } ?>">
 											</div> 
 											<div class="form-group">
 												<div class="btn-group">
@@ -130,7 +145,20 @@ require_once("inc/config.php"); ?>
 							<div class="panel-heading">
 								<div class="row">
 									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title"></h3>
+										<h3 class="panel-title">
+										<div class="text-center">
+											<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team">
+												<?php foreach ($data['teams'] as $k => $v) { ?>
+													<option value="<?php echo $v['id']; ?>" 
+													<?php 
+													if(isset($_POST['team']) && $_POST['team'] != "" && $_POST['team'] == $v['id']){ echo "selected"; } 
+													?> ><?php echo $v['name']; 
+													?>
+													</option> 
+												<?php }?> 
+											</select>
+										</div>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -161,7 +189,36 @@ require_once("inc/config.php"); ?>
 							<div class="panel-heading">
 								<div class="row">
 									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title"></h3>
+										<h3 class="panel-title">
+											<div class="text-center">
+												<select class="form-control minimal" id="selectTeamWard" name="selectTeamWard" placeholder="Team">
+													<?php foreach ($data['teams'] as $k => $v) { ?>
+														<option value="<?php echo $v['id']; ?>" 
+													<?php 
+													if(isset($_POST['team_ward']) && $_POST['team_ward'] != "" && $_POST['team_ward'] == $v['id']){ echo "selected"; } 
+													?> ><?php echo $v['name']; 
+													?>
+													</option> 
+													<?php }?> 
+												</select>
+											</div>
+										</h3>
+									</div>
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title">
+											<div class="text-center">
+												<select class="form-control minimal" id="sortTeamWard" name="sortTeamWard" placeholder="Team">
+													<?php foreach ($data['sortList'] as $k => $v) { ?>
+														<option value="<?php echo $v['id']; ?>" 
+													<?php 
+													if(isset($_POST['team_ward_sort']) && $_POST['team_ward_sort'] != "" && $_POST['team_ward_sort'] == $v['id']){ echo "selected"; } 
+													?> ><?php echo $v['name']; 
+													?>
+													</option> 
+													<?php }?> 
+												</select>
+											</div>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -186,7 +243,36 @@ require_once("inc/config.php"); ?>
 							<div class="panel-heading">
 								<div class="row">
 									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title"></h3>
+										<h3 class="panel-title">
+											<div class="text-center">
+												<select class="form-control minimal" id="selectTeamStaff" name="selectTeamStaff" placeholder="Team">
+													<?php foreach ($data['teams'] as $k => $v) { ?>
+														<option value="<?php echo $v['id']; ?>" 
+															<?php 
+															if(isset($_POST['team_staff']) && $_POST['team_staff'] != "" && $_POST['team_staff'] == $v['id']){ echo "selected"; } 
+															?> ><?php echo $v['name']; 
+															?>
+														</option> 
+													<?php }?> 
+												</select>
+											</div>	
+										</h3>
+									</div>
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title">
+											<div class="text-center">
+												<select class="form-control minimal" id="sortTeamStaff" name="sortTeamStaff" placeholder="Team">
+													<?php foreach ($data['sortList'] as $k => $v) { ?>
+														<option value="<?php echo $v['id']; ?>" 
+													<?php 
+													if(isset($_POST['team_staff_sort']) && $_POST['team_staff_sort'] != "" && $_POST['team_staff_sort'] == $v['id']){ echo "selected"; } 
+													?> ><?php echo $v['name']; 
+													?>
+													</option> 
+													<?php }?> 
+												</select>
+											</div>
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -223,6 +309,26 @@ require_once("inc/config.php"); ?>
 <script src="<?php echo URL; ?>assets/js/app.js"></script>
 
 <script>
+$("#selectTeam").change(function() {
+	$('#team').val($(this).val());
+	$('#formSubmit').trigger('submit')
+});
+$("#selectTeamWard").change(function() {
+	$('#team_ward').val($(this).val());
+	$('#formSubmit').trigger('submit')
+});
+$("#selectTeamStaff").change(function() {
+	$('#team_staff').val($(this).val());
+	$('#formSubmit').trigger('submit')
+});
+$("#sortTeamStaff").change(function() {
+	$('#team_staff_sort').val($(this).val());
+	$('#formSubmit').trigger('submit')
+});
+$("#sortTeamWard").change(function() {
+	$('#team_ward_sort').val($(this).val());
+	$('#formSubmit').trigger('submit')
+});
 $("#date").change(function() {
      //this.form.submit();
 });
@@ -394,7 +500,7 @@ $(function () {
 			},
 
 			title: {
-				text: 'Frailty Unmeet/meet'
+				text: 'Frailty <?php echo $data['selectedTeam']; ?> Unmeet/meet'
 			},
 			credits: {
 				enabled: false
@@ -410,7 +516,7 @@ $(function () {
 				name: "Total",
 				data: [
 
-					['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>],
+					['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>], 
 
 			['<?php echo "unmeet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']; ?>],
 			]
@@ -423,7 +529,7 @@ $(function () {
 				type: 'column'
 			},
 			title: {
-				text: 'Frailty activity by wards',
+				text: 'Frailty <?php echo $data['selectedTeamWard']; ?> activity by wards',
 				align: 'left'
 			},
 			xAxis: {
@@ -527,7 +633,7 @@ $(function () {
 				type: 'column'
 			},
 			title: {
-				text: 'Frailty Staff Activity',
+				text: 'Frailty <?php echo $data['selectedTeamStaff']; ?> Staff Activity',
 				align: 'left'
 			},
 			xAxis: {

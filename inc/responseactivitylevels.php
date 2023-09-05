@@ -86,13 +86,57 @@ if(isset($_POST['date']) && $_POST['date'] != "" && isset($_POST['dateto']) && $
   $whr_date_new = 'and STR_TO_DATE(date, "%d-%m-%Y") between "'.$ddate.'" and "'.$ddateto.'"'; 
 }
 
-$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new where isOld=0 $whr_date_new GROUP BY unmeet_needs ORDER BY unmeet_needs;";
+$data['sortList']=  [
+  [
+    'id' => 1,
+    'name' => 'A-Z'
+  ],
+  [
+    'id' => 2,
+    'name' => 'Z-A'
+  ],
+  [
+    'id' => 3,
+    'name' => 'Heighest - Lowest'
+  ],
+  [
+    'id' => 4,
+    'name' => 'Lowest - Heighest'
+  ]
+];
+
+$sql = "SELECT * from teams where status = '1' order by id "; 
+$result = $con->query($sql);
+if ($result->num_rows > 0) {
+  $key=0;
+  while($row = $result->fetch_assoc()) {
+    $data['teams'][$key] = $row;
+    if($row['id'] == $_POST['team']) {
+      $data['selectedTeam'] = $row['name'];
+    }
+    if($row['id'] == $_POST['team_ward']) {
+      $data['selectedTeamWard'] = $row['name'];
+    }
+    if($row['id'] == $_POST['team_staff']) {
+      $data['selectedTeamStaff'] = $row['name'];
+    }
+    $key++;
+  }
+}
+
+$whr_team = "";
+if(isset($_POST['team']) && $_POST['team'] != "") {
+  $filter_team = $_POST['team'];
+  $whr_team = 'and team='.$filter_team;
+}
+
+$sql = "SELECT COUNT(*) total,unmeet_needs from stats_new where isOld=0 $whr_team $whr_date_new GROUP BY unmeet_needs ORDER BY unmeet_needs;";
 
 $result = $con->query($sql);
 $data['dateChartUnMeet']['un_meet'] = 0;
 $data['dateChartUnMeet']['meet'] = 0;
 if ($result->num_rows > 0) {
-  while ($row = $result->fetch_assoc()) {
+  while ($row = $result->fetch_assoc()) { 
     if ($row['unmeet_needs']) {
       $data['dateChartUnMeet']['un_meet'] = $row['total'];
     } else {
@@ -114,11 +158,45 @@ if ($result->num_rows > 0) {
 
 
 $sql = "SELECT * from wards where status = 1";
+//sort if has
+$sort_team_ward = "";
+if(isset($_POST['team_ward_sort']) && $_POST['team_ward_sort'] != "") {
+  switch($_POST['team_ward_sort']) {
+    case 1:
+      $sort_team_ward = 'ORDER BY name ASC';
+      break;
+    case 2:
+      $sort_team_ward = 'ORDER BY name DESC';
+      break;
+    case 3: 
+      $sort_team_ward = 'ORDER BY COUNT(*) DESC';
+      break;
+    case 4:
+      $sort_team_ward = 'ORDER BY COUNT(*) ASC';
+      break;
+    default:
+      break;
+  }
+}
+if(!empty($sort_team_ward) && ($_POST['team_ward_sort'] == 1 || $_POST['team_ward_sort'] == 2)) {
+  $sql = $sql." ".$sort_team_ward;
+}
+
 $result = $con->query($sql);
+//filter by team
+$whr_team_ward = "";
+if(isset($_POST['team_ward']) && $_POST['team_ward'] != "") {
+  $filter_team_ward = $_POST['team_ward'];
+  $whr_team_ward = 'and team='.$filter_team_ward;
+}
+
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
     $idWard = $row['id'];
-    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new s where ward = '$idWard' and isOld=0 $whr_date_new GROUP BY unmeet_needs ORDER BY unmeet_needs;";
+    $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new s where ward = '$idWard' and isOld=0 $whr_team_ward $whr_date_new GROUP BY unmeet_needs";
+    if(!empty($sort_team_ward) && ($_POST['team_ward_sort'] == 3 || $_POST['team_ward_sort'] == 4)) {
+      $sql2 = $sql2." ".$sort_team_ward;
+    }
     $result2 = $con->query($sql2);
     $res = [
       'un_meet' => 0,
@@ -137,11 +215,41 @@ if ($result->num_rows > 0) {
   }
 }
 
+//filter by team
+$whr_team_staff = "";
+if(isset($_POST['team_staff']) && $_POST['team_staff'] != "") {
+  $filter_team_staff = $_POST['team_staff'];
+  $whr_team_staff = 'and team='.$filter_team_staff;
+}
+
+//sort if has
+$sort_team_staff = "";
+if(isset($_POST['team_staff_sort']) && $_POST['team_staff_sort'] != "") {
+  switch($_POST['team_staff_sort']) {
+    case 1:
+      $sort_team_staff = 'ORDER BY clinicians_initials ASC';
+      break;
+    case 2:
+      $sort_team_staff = 'ORDER BY clinicians_initials DESC';
+      break;
+    case 3: 
+      $sort_team_staff = 'ORDER BY COUNT(clinicians_initials) DESC';
+      break;
+    case 4:
+      $sort_team_staff = 'ORDER BY COUNT(clinicians_initials) ASC';
+      break;
+    default:
+      break;
+  }
+}
 
 $sql = "SELECT COUNT(clinicians_initials) as total, clinicians_initials as name 
         FROM `stats_new` s
-        WHERE isOld = 0 $whr_date_new
+        WHERE isOld = 0 $whr_team_staff $whr_date_new
         GROUP BY clinicians_initials";
+if (!empty($sort_team_staff)) {
+  $sql = $sql." ".$sort_team_staff;
+}
 $result = $con->query($sql);
 if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {

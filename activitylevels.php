@@ -49,10 +49,24 @@ require_once("inc/config.php"); ?>
 						<div class="panel panel-chart">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-md-3">
-										<h3 class="panel-title"></h3>
+									<div class="col-md-4 col-sm-4  col-xs-3">
+										<h3 class="panel-title">
+										<div class="text-center">
+											<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team">
+												<option value="" >All</option>
+												<?php foreach ($data['teams'] as $k => $v) { ?>
+													<option value="<?php echo $v['id']; ?>" 
+													<?php 
+													if(isset($_POST['team']) && $_POST['team'] != "" && $_POST['team'] == $v['id']){ echo "selected"; } 
+													?> ><?php echo $v['name']; 
+													?>
+													</option> 
+												<?php }?> 
+											</select>
+										</div>
+										</h3>
 									</div>
-									<div class="col-md-9 text-right">
+									<div class="col-md-8  col-xs-9 text-right">
 										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php" id="formSubmit">
 											<div class="form-group">
 												<input type="text" class="form-control date-picker valid" id="date" name="date" value="<?php if(isset($_POST['date']) && $_POST['date'] != ""){ echo $_POST['date'];  } ?>" required autocomplete="off">
@@ -143,24 +157,7 @@ require_once("inc/config.php"); ?>
 					<div class="col-md-12">
 						<div class="panel panel-chart">
 							<div class="panel-heading">
-								<div class="row">
-									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title">
-										<div class="text-center">
-											<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team">
-												<?php foreach ($data['teams'] as $k => $v) { ?>
-													<option value="<?php echo $v['id']; ?>" 
-													<?php 
-													if(isset($_POST['team']) && $_POST['team'] != "" && $_POST['team'] == $v['id']){ echo "selected"; } 
-													?> ><?php echo $v['name']; 
-													?>
-													</option> 
-												<?php }?> 
-											</select>
-										</div>
-										</h3>
-									</div>
-								</div>
+								
 							</div>
 							<div class="panel-body">
 								<div class="row">
@@ -188,22 +185,6 @@ require_once("inc/config.php"); ?>
 						<div class="panel panel-chart">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title">
-											<div class="text-center">
-												<select class="form-control minimal" id="selectTeamWard" name="selectTeamWard" placeholder="Team">
-													<?php foreach ($data['teams'] as $k => $v) { ?>
-														<option value="<?php echo $v['id']; ?>" 
-													<?php 
-													if(isset($_POST['team_ward']) && $_POST['team_ward'] != "" && $_POST['team_ward'] == $v['id']){ echo "selected"; } 
-													?> ><?php echo $v['name']; 
-													?>
-													</option> 
-													<?php }?> 
-												</select>
-											</div>
-										</h3>
-									</div>
 									<div class="col-md-4 col-sm-4  col-xs-3">
 										<h3 class="panel-title">
 											<div class="text-center">
@@ -242,22 +223,7 @@ require_once("inc/config.php"); ?>
 						<div class="panel panel-chart">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title">
-											<div class="text-center">
-												<select class="form-control minimal" id="selectTeamStaff" name="selectTeamStaff" placeholder="Team">
-													<?php foreach ($data['teams'] as $k => $v) { ?>
-														<option value="<?php echo $v['id']; ?>" 
-															<?php 
-															if(isset($_POST['team_staff']) && $_POST['team_staff'] != "" && $_POST['team_staff'] == $v['id']){ echo "selected"; } 
-															?> ><?php echo $v['name']; 
-															?>
-														</option> 
-													<?php }?> 
-												</select>
-											</div>	
-										</h3>
-									</div>
+									
 									<div class="col-md-4 col-sm-4  col-xs-3">
 										<h3 class="panel-title">
 											<div class="text-center">
@@ -311,6 +277,8 @@ require_once("inc/config.php"); ?>
 <script>
 $("#selectTeam").change(function() {
 	$('#team').val($(this).val());
+	$('#team_ward').val($(this).val());
+	$('#team_staff').val($(this).val());
 	$('#formSubmit').trigger('submit')
 });
 $("#selectTeamWard").change(function() {
@@ -500,7 +468,7 @@ $(function () {
 			},
 
 			title: {
-				text: 'Frailty <?php echo $data['selectedTeam']; ?> Unmeet/meet'
+				text: 'Frailty <?php echo $data['selectedTeam']; ?> Unmet/met'
 			},
 			credits: {
 				enabled: false
@@ -516,9 +484,9 @@ $(function () {
 				name: "Total",
 				data: [
 
-					['<?php echo "meet"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>], 
+					['<?php echo "Met"; ?>', <?php echo $data['dateChartUnMeet']['meet']; ?>], 
 
-			['<?php echo "unmeet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']; ?>],
+			['<?php echo "Unmet"; ?>',<?php echo $data['dateChartUnMeet']['un_meet']; ?>],
 			]
 		}]
 	});
@@ -557,7 +525,7 @@ $(function () {
 		},
 			series: [
 			{
-				name: 'Unmeet',
+				name: 'Unmet',
 				data:
 					[
 					<?php
@@ -569,7 +537,7 @@ $(function () {
 			stack: 'Europe'
 			},
 			{
-				name: 'Meet',
+				name: 'Met',
 				data: [
 					<?php
 					foreach ($data['wardChart'] as $k => $v) {

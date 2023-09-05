@@ -194,13 +194,12 @@ if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
     $idWard = $row['id'];
     $sql2 = "SELECT COUNT(*) total,unmeet_needs from stats_new s where ward = '$idWard' and isOld=0 $whr_team_ward $whr_date_new GROUP BY unmeet_needs";
-    if(!empty($sort_team_ward) && ($_POST['team_ward_sort'] == 3 || $_POST['team_ward_sort'] == 4)) {
-      $sql2 = $sql2." ".$sort_team_ward;
-    }
+    
     $result2 = $con->query($sql2);
     $res = [
       'un_meet' => 0,
       'meet' => 0,
+      'total' => 0
     ];
     if ($result2->num_rows > 0) {
       while ($row2 = $result2->fetch_assoc()) {
@@ -209,9 +208,16 @@ if ($result->num_rows > 0) {
         } else {
           $res['meet'] = $row2['total'];
         }
+        $res['total'] += $row2['total'];
       }
     }
     $data['wardChart'][] = array_merge($row, $res);
+  }
+  if(!empty($sort_team_ward) && $_POST['team_ward_sort'] == 3) {
+    array_multisort(array_column($data['wardChart'], 'total'), SORT_DESC, $data['wardChart']);
+  }
+  if(!empty($sort_team_ward) && $_POST['team_ward_sort'] == 4) {
+    array_multisort(array_column($data['wardChart'], 'total'), $data['wardChart']);
   }
 }
 
@@ -255,9 +261,17 @@ if ($result->num_rows > 0) {
   while ($row = $result->fetch_assoc()) {
     $data['dataChartStaffActivity'][] = $row;
   }
+
+  if(!empty($sort_team_ward) && $_POST['team_staff_sort'] == 3) {
+    array_multisort(array_column($data['dataChartStaffActivity'], 'total'), SORT_DESC, $data['dataChartStaffActivity']);
+  }
+  if(!empty($sort_team_ward) && $_POST['team_staff_sort'] == 4) {
+    array_multisort(array_column($data['dataChartStaffActivity'], 'total'), $data['dataChartStaffActivity']);
+  }
+
 }
 
-// echo '<pre>'; print_r($data); exit;
+// echo '<pre>'; print_r($data['dataChartStaffActivity']); exit;
 $con->close();
 
 ?>

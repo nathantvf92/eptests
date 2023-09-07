@@ -49,23 +49,7 @@ require_once("inc/config.php"); ?>
 						<div class="panel panel-chart">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-md-4 col-sm-4  col-xs-3">
-										<h3 class="panel-title">
-										<div class="text-center">
-											<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team">
-												<option value="" >All</option>
-												<?php foreach ($data['teams'] as $k => $v) { ?>
-													<option value="<?php echo $v['id']; ?>" 
-													<?php 
-													if(isset($_POST['team']) && $_POST['team'] != "" && $_POST['team'] == $v['id']){ echo "selected"; } 
-													?> ><?php echo $v['name']; 
-													?>
-													</option> 
-												<?php }?> 
-											</select>
-										</div>
-										</h3>
-									</div>
+									<div class="col-4"></div>
 									<div class="col-md-8  col-xs-9 text-right">
 										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php" id="formSubmit">
 											<div class="form-group">
@@ -157,6 +141,25 @@ require_once("inc/config.php"); ?>
 					<div class="col-md-12">
 						<div class="panel panel-chart">
 							<div class="panel-heading">
+								<div class=row>
+									<div class="col-12">
+										<div class="col-sm-8  col-xs-12">
+											<div class="text-left" style="display: flex; align-items: center;">
+												<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team" style="max-width: 666px">
+													<?php foreach ($data['teams'] as $k => $v) { ?>
+														<option value="<?php echo $v['id']; ?>" 
+														<?php 
+														if(isset($_POST['team']) && $_POST['team'] != "" && $_POST['team'] == $v['id']){ echo "selected"; } 
+														?> ><?php echo $v['name']; 
+														?>
+														</option> 
+													<?php }?> 
+												</select>
+												<label for="" class="ml-3" style="font-size: 18px;margin: 0;padding-left: 20px;font-weight: 500;">Individual Team Performance</label>
+											</div>
+										</div>
+									</div>
+								</div>
 								
 							</div>
 							<div class="panel-body">
@@ -468,7 +471,7 @@ $(function () {
 			},
 
 			title: {
-				text: 'Frailty <?php echo $data['selectedTeam']; ?> Unmet/met'
+				text: '<?php echo $data['selectedTeam']; ?> Unmet/met'
 			},
 			credits: {
 				enabled: false
@@ -497,7 +500,7 @@ $(function () {
 				type: 'column'
 			},
 			title: {
-				text: 'Frailty <?php echo $data['selectedTeamWard']; ?> activity by wards',
+				text: '<?php echo $data['selectedTeamWard']; ?> activity by wards',
 				align: 'left'
 			},
 			xAxis: {
@@ -569,7 +572,7 @@ $(function () {
 			},
 
 			title: {
-				text: 'Frailty Speciality Breakdown'
+				text: '<?php echo $data['selectedTeamWard']; ?> Breakdown'
 			},
 			credits: {
 				enabled: false
@@ -601,7 +604,7 @@ $(function () {
 				type: 'column'
 			},
 			title: {
-				text: 'Frailty <?php echo $data['selectedTeamStaff']; ?> Staff Activity',
+				text: '<?php echo $data['selectedTeamStaff']; ?> Staff Activity',
 				align: 'left'
 			},
 			xAxis: {

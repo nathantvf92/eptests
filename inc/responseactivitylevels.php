@@ -111,6 +111,12 @@ if ($result->num_rows > 0) {
   $key=0;
   while($row = $result->fetch_assoc()) {
     $data['teams'][$key] = $row;
+    if(!$_POST['team']){
+      $_POST['team'] = $row['id'];
+      $_POST['team_ward'] = $row['id'];
+      $_POST['team_staff'] = $row['id'];
+    }
+
     if($row['id'] == $_POST['team']) {
       $data['selectedTeam'] = $row['name'];
     }

@@ -1413,8 +1413,12 @@ select.form-control {
       5px 5px,
       1px 1.5em;
     background-repeat: no-repeat;
-  }
+}
   
+select.selector-f18{
+    background-position: calc(100% - 15px) calc(1em + -2px), calc(100% - 10px) calc(1em + -2px), calc(100% - 1.6em) 0.1em !important;
+    font-size: 18px !important;
+}
 
   
   select:-moz-focusring {

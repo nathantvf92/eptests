@@ -49,7 +49,7 @@ require_once("inc/config.php"); ?>
 						<div class="panel panel-chart">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-4"></div>
+									<div class="col-md-4 col-xs-3"></div>
 									<div class="col-md-8  col-xs-9 text-right">
 										<form class="form-inline table-inline-filter" method="POST" action="activitylevels.php" id="formSubmit">
 											<div class="form-group">
@@ -135,7 +135,8 @@ require_once("inc/config.php"); ?>
 				</div>
 			</div>
       	</div>
-		<div class="row">
+
+		  <div class="row">
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 				<div class="row">
 					<div class="col-md-12">
@@ -144,8 +145,9 @@ require_once("inc/config.php"); ?>
 								<div class=row>
 									<div class="col-12">
 										<div class="col-sm-8  col-xs-12">
-											<div class="text-left" style="display: flex; align-items: center;">
-												<select class="form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team" style="max-width: 666px">
+											<div class="text-left" >
+												<label for="" style="font-size: 20px;margin: 0;font-weight: 500;">Individual Team Performance</label>
+												<select class="selector-f18 form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team" style="max-width: 666px">
 													<?php foreach ($data['teams'] as $k => $v) { ?>
 														<option value="<?php echo $v['id']; ?>" 
 														<?php 
@@ -155,13 +157,24 @@ require_once("inc/config.php"); ?>
 														</option> 
 													<?php }?> 
 												</select>
-												<label for="" class="ml-3" style="font-size: 18px;margin: 0;padding-left: 20px;font-weight: 500;">Individual Team Performance</label>
 											</div>
 										</div>
 									</div>
 								</div>
-								
 							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+      	</div>
+
+		<div class="row">
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-chart">
+							
 							<div class="panel-body">
 								<div class="row">
 									<div class="col-md-6 col-sm-6 text-center">
@@ -191,7 +204,7 @@ require_once("inc/config.php"); ?>
 									<div class="col-md-4 col-sm-4  col-xs-3">
 										<h3 class="panel-title">
 											<div class="text-center">
-												<select class="form-control minimal" id="sortTeamWard" name="sortTeamWard" placeholder="Team">
+												<select class="selector-f18 form-control minimal" id="sortTeamWard" name="sortTeamWard" placeholder="Team">
 													<?php foreach ($data['sortList'] as $k => $v) { ?>
 														<option value="<?php echo $v['id']; ?>" 
 													<?php 
@@ -230,7 +243,7 @@ require_once("inc/config.php"); ?>
 									<div class="col-md-4 col-sm-4  col-xs-3">
 										<h3 class="panel-title">
 											<div class="text-center">
-												<select class="form-control minimal" id="sortTeamStaff" name="sortTeamStaff" placeholder="Team">
+												<select class="selector-f18 form-control minimal" id="sortTeamStaff" name="sortTeamStaff" placeholder="Team">
 													<?php foreach ($data['sortList'] as $k => $v) { ?>
 														<option value="<?php echo $v['id']; ?>" 
 													<?php 
@@ -506,7 +519,9 @@ $(function () {
 			xAxis: {
 				categories: [ 
 				<?php foreach ($data['wardChart'] as $k => $v) {
-					echo "'" . $v['name'] . "',";
+					if($v['total']){
+						echo "'" . $v['name'] . "',";
+					}
 				} ?>
 			]
 		},
@@ -533,7 +548,9 @@ $(function () {
 					[
 					<?php
 					foreach ($data['wardChart'] as $k => $v) {
-						echo $v['un_meet'] . ",";
+						if($v['total']){
+							echo $v['un_meet'] . ",";
+						}
 					}
 					?>
 				],
@@ -544,7 +561,9 @@ $(function () {
 				data: [
 					<?php
 					foreach ($data['wardChart'] as $k => $v) {
-						echo $v['meet'] . ",";
+						if($v['total']){
+							echo $v['meet'] . ",";
+						}
 					}
 					?>
 				],
@@ -633,7 +652,7 @@ $(function () {
 			series: [
 
 			{
-				name: 'Number of staff',
+				name: 'Number of inputs',
 				data:
 					[
 						<?php

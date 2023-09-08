@@ -141,12 +141,12 @@ require_once("inc/config.php"); ?>
 				<div class="row">
 					<div class="col-md-12">
 						<div class="panel panel-chart">
-							<div class="panel-heading">
+							<div class="panel-heading" style="padding: 30px 15px;">
 								<div class=row>
 									<div class="col-12">
 										<div class="col-sm-8  col-xs-12">
-											<div class="text-left" >
-												<label for="" style="font-size: 20px;margin: 0;font-weight: 500;">Individual Team Performance</label>
+											<div class="text-left" style="display: flex;align-items: center;">
+												<label for="" style="padding-right: 20px;font-size: 20px;margin: 0;font-weight: 500;">Individual Team Performance</label>
 												<select class="selector-f18 form-control minimal" id="selectTeam" name="selectTeam" placeholder="Team" style="max-width: 666px">
 													<?php foreach ($data['teams'] as $k => $v) { ?>
 														<option value="<?php echo $v['id']; ?>" 
